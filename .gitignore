@@ -1,0 +1,11 @@
+.DS_Store
+
+*.csg
+*.echo
+*.term
+
+*.gcode
+*.gcode.bgcode
+*.3mf
+*.sl1
+*.scad
