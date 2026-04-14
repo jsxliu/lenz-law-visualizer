@@ -1,4 +1,7 @@
 # Dual-Tube Lenz's Law Visualizer
+**An open-source hardware initiative by OpenApparatus(https://openapparatus.org/)**
+
+> Democratizing STEM education by replacing $300 commercial lab equipment with high-fidelity, 3D-printable physics demonstrators.
 
 A ruggedized, student-built, and user-friendly physics apparatus designed to safely visualize eddy currents and magnetic braking in a classroom setting. 
 
@@ -10,7 +13,7 @@ Built entirely from easily sourced off-the-shelf hardware and two custom 3D-prin
 
 I built this project as a high school junior to deepen my understanding of physics, practice hands-on design, and develop a clear way to communicate scientific ideas through hardware.
 
-![Prototype image](assets/lenz_visualizer_prototype_v1.png)
+![Prototype image](assets/hero-image.jpeg)
 
 ## 📁 Overview
 
@@ -19,7 +22,7 @@ This repository currently contains the print-ready STL and documentation for **v
 **Included files:**
 * `cap_lenz_visualizer_v1.stl` — 3D-printable hardware component
 * `README.md` — Project overview, safety notes, and build guidance
-* `assets/lenz_visualizer_prototype_v1.png` — Prototype image
+* `assets/hero-image.jpeg.png` — Prototype image
 
 ## 💡 Motivation
 
@@ -84,3 +87,11 @@ Created by Jonathan Liu. If you build from or adapt this project, please preserv
 
 ## 📝 Notes
 This repository is meant to document an authentic learning and design process. The project may evolve over time as testing, classroom use, and fabrication experience lead to improvements.
+
+## 🌍 Get Involved with OpenApparatus
+
+This repository is maintained by the **OpenApparatus** engineering team. We are dedicated to removing the financial barriers to advanced physics and engineering education.
+
+* **Educators:** Want to deploy this hardware in your classroom? [Request a Beta-Test Donation](https://openapparatus.org/beta.html).
+* **Students:** Want to manufacture these kits for underfunded schools in your area? [Apply for a Chapter Scholarship](https://forms.gle/qhK3gqmmLUcHkoYXA).
+* **Learn More:** Visit [openapparatus.org](https://openapparatus.org/) to see our full library of open-source STEM modules and our latest deployment impact metrics.
