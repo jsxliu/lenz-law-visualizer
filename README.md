@@ -1,7 +1,7 @@
 # Dual-Tube Lenz's Law Visualizer
 **An open-source hardware initiative by OpenApparatus(https://openapparatus.org/)**
 
-> Democratizing STEM education by replacing $300 commercial lab equipment with high-fidelity, 3D-printable physics demonstrators.
+> As of May 2026, 12 beta units of this apparatus has been shipped to universities, museums, and high schools across 10 states in USA.
 
 A ruggedized, student-built, and user-friendly physics apparatus designed to safely visualize eddy currents and magnetic braking in a classroom setting. 
 
@@ -20,7 +20,7 @@ I built this project as a high school junior to deepen my understanding of physi
 This repository currently contains the print-ready STL and documentation for **v1**. *If editable CAD/source files are released in future versions, they will be added here.*
 
 **Included files:**
-* `cap_lenz_visualizer_v1.stl` — 3D-printable hardware component
+* `cap_lenz_visualizer_v2.stl` — 3D-printable hardware component
 * `README.md` — Project overview, safety notes, and build guidance
 * `assets/hero-image.jpeg.png` — Prototype image
 
@@ -30,7 +30,7 @@ I enjoy building physical models that make abstract science ideas easier to see 
 
 ## ⚠️ Safety & Liability
 * **Captive System:** The strong magnet is securely housed by the screwed-on 3D-printed end caps, entirely eliminating the shatter, sharp edges, and pinch-point hazards commonly seen in such demonstrations.
-* **Medical Warning:** The finished apparatus contains a powerful rare-earth magnet. Keep strictly at least 12 inches away from pacemakers, ICDs, and other implanted medical devices.
+* **Medical Warning:** The finished apparatus contains a powerful rare-earth magnet, which tends to attract ferromagnetic objects and debris. Keep strictly at least 12 inches away from pacemakers, ICDs, and other implanted medical devices.
 * **Hot Surfaces & Sharp Edges:** Assembly requires a soldering iron and mechanical cutting tools. Handle hot surfaces and deburred metal edges with extreme caution.
 
 ## 🛠️ Bill of Materials (Per Kit)
@@ -48,9 +48,8 @@ I enjoy building physical models that make abstract science ideas easier to see 
 * 2x End Caps (See `.stl` file).
 
 ## 🖨️ 3D-Printer Settings (PETG Filament Recommended)
-* **Quality - XY Hole Compensation:** +0.1mm (Ensures perfect heat-set insert fitting).
 * **Strength - Wall Loops:** 6 (Forces solid plastic walls around fastener holes to prevent blowout).
-* **Strength - Sparse Infill:** 15% Density, Gyroid Pattern.
+* **Strength - Sparse Infill:** 18% Density, Gyroid Pattern.
 
 ## ⚙️ Assembly Procedures
 
@@ -65,10 +64,10 @@ I enjoy building physical models that make abstract science ideas easier to see 
 **Assembly Steps:**
 1. **Prepare the Tubes:** Cut both the copper and polycarbonate tubes to exactly 12 inches in length. Use the reaming pen to thoroughly deburr the inside and outside edges of all cut ends.
 2. **Install the Inserts:** Using the soldering iron, carefully and gently press the brass inserts into the printed holes on the 3D-printed end caps until they are flush with the plastic. Ensure the inserts remain perpendicular to the mating surface as they cool. Use the proper iron temperature for your selected 3D print filament.
-3. **Seat the Tubes:** Insert the copper and polycarbonate tubes into the bottom end cap. Gently tap until the tube ends meet the internal step stopper. *Note: The end cap cavities are asymmetric to account for material tolerances. The copper tube seats into the tighter cavity, while the polycarbonate tube seats into the looser cavity.*
+3. **Seat the Tubes:** Insert the copper and polycarbonate tubes into the bottom end cap. Gently tap until the tube ends meet the internal step stopper. *Note: The end cap cavities are asymmetric to account for material tolerances. The copper tube seats into the tighter cavity, while the polycarbonate tube seats into the looser cavity. Do not force polycarbonate tube into tighter cavity.*
 4. **Load the Weights:** Drop the permanent magnet into the copper tube and the stainless steel control weight into the polycarbonate tube.
 5. **Cap the System:** Press the top end cap onto the exposed ends of both tubes to seal the apparatus. Ensure the asymmetric hole cavities are correctly aligned with their respective tubes before pressing down. 
-6. **Lock it Down:** Apply a small drop of Blue Loctite to the set screws and thread them into the brass inserts until they sit flush against the tubing. Do not overtighten. *(Note: Fastening the set screws on the polycarbonate side is optional. Experience shows that the set screws against the copper tube are sufficient to keep the apparatus from separating. Overtightening against the polycarbonate tube can cause brass insert shear failure).*
+6. **Lock it Down:** Apply a small drop of Blue Loctite to the tip of set screws and thread them into the brass inserts until they sit flush against the tubing. It's the contact force between set screw tips and copper tube surface that provides the fastening force. However, no need to overtighten them. *(Note: There are no fastening holes on the polycarbonate side. Experience shows that the set screws against the copper tube are sufficient to keep the apparatus from separating.).*
 
 The assembly is now complete and ready for classroom deployment.
 
