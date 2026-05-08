@@ -1,7 +1,9 @@
 # Dual-Tube Lenz's Law Visualizer
 **An open-source hardware initiative by OpenApparatus(https://openapparatus.org/)**
 
-> As of May 2026, 12 beta units of this apparatus has been shipped to universities, museums, and high schools across 10 states in USA.
+> As of May 2026, twelve beta units of this apparatus have been successfully deployed to universities, museums, and high schools across ten states. To ensure long-term reliability in educational environments, the hardware undergoes rigorous evaluation, including a 4,000-cycle automated stress test utilizing a motorized, Arduino-controlled rig, as linked below:
+
+https://www.youtube.com/watch?v=3sY6RCX2NQ0
 
 A ruggedized, student-built, and user-friendly physics apparatus designed to safely visualize eddy currents and magnetic braking in a classroom setting. 
 
