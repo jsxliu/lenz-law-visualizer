@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use or adapt these hardware designs, please cite this repository and identify the specific design and release version used."
+title: "Lenz's Law Visualizers"
+abstract: "An open-hardware collection of classroom apparatus designs for demonstrating eddy currents and magnetic braking."
+authors:
+  - family-names: "Liu"
+    given-names: "Jonathan"
+    affiliation: "OpenApparatus"
+date-released: "2026-03-20"
+license: "CERN-OHL-W-2.0"
+repository-code: "https://github.com/jsxliu/lenz-law-visualizer"
+keywords:
+  - "open hardware"
+  - "physics education"
+  - "Lenz's law"
+  - "eddy currents"
+  - "magnetic braking"
+  - "3D printing"
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: "Liu"
+      given-names: "Jonathan"
+      affiliation: "OpenApparatus"
+  title: "Lenz's Law Visualizers"
+  publisher:
+    name: "OpenApparatus"
+  year: 2026
+  url: "https://github.com/jsxliu/lenz-law-visualizer"
