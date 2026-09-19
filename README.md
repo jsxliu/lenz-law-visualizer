@@ -24,6 +24,12 @@ The dual-tube design’s [build guide](designs/dual-tube-design/README.md) inclu
 
 The [triple-tube v1 build guide](designs/triple-tube-design/README.md) includes materials, printing settings, assembly instructions, safety notes, a prototype photograph, and printable parts. This variation adds an aluminum tube alongside the copper and clear tubes, allowing a qualitative comparison of magnetic braking in the two conductive-tube assemblies. It reuses components from the dual-tube design wherever practical.
 
+### See-through visualizer
+
+[![See-through prototype](designs/see-through-design/images/see-through-design-hero.jpg)](designs/see-through-design/README.md)
+
+The [see-through v1 build guide](designs/see-through-design/README.md) includes materials, printing settings, assembly instructions, safety notes, a prototype photograph, and printable parts. This design places a ring magnet and a printed control ring around matching copper tubes, with clear outer tubes keeping both descents visible.
+
 ## Repository layout
 
 ```text
@@ -39,11 +45,15 @@ designs/
      README.md                  v1 build guide
      parts/                     Printable STL files
      images/                    Prototype photograph
+   see-through-design/
+     README.md                  v1 build guide
+     parts/                     Printable STL files
+     images/                    Prototype photograph
 ```
 
 ## Citation
 
-Use GitHub’s **Cite this repository** menu to copy an APA or BibTeX citation generated from [CITATION.cff](CITATION.cff). When citing a particular build, also name the design and version used, such as **Dual-Tube Design, v1** or **Triple-Tube Design, v1**.
+Use GitHub’s **Cite this repository** menu to copy an APA or BibTeX citation generated from [CITATION.cff](CITATION.cff). When citing a particular build, also name the design and version used, such as **Dual-Tube Design, v1**, **Triple-Tube Design, v1**, or **See-Through Design, v1**.
 
 Suggested general citation:
 
