@@ -10,6 +10,7 @@ This repository began with the dual-tube Lenz’s Law visualizer and now include
 | --- | --- | --- | --- |
 | Dual-tube | v1 | Compare a magnet descending through copper tube with a control weight falling through a clear tube. | [View dual-tube design](designs/dual-tube-design/README.md) |
 | Triple-tube | v1 | Compare a control weight in a clear tube with magnets descending through aluminum and copper tubes; the control falls fastest and the copper-tube magnet slowest. | [View triple-tube design](designs/triple-tube-design/README.md) |
+| See-through | v1 | Watch a ring magnet and a nonmagnetic control ring descend around matching copper tubes inside clear tubes, making magnetic braking directly visible. | [View see-through design](designs/see-through-design/README.md) |
 
 ### Dual-tube visualizer
 
@@ -53,6 +54,10 @@ Suggested general citation:
 Licensed under the [CERN Open Hardware Licence Version 2 – Weakly Reciprocal (CERN-OHL-W-2.0)](LICENSE).
 
 Created by Jonathan Liu. If you build from or adapt this project, please preserve attribution and clearly indicate your modifications.
+
+## AI assistance and acknowledgements
+
+AI tools assisted with drafting, editing, and organizing this repository’s documentation, including Markdown formatting and educational explanations. Hardware design and build decisions remain under the direction of Jonathan Liu at OpenApparatus, who retains responsibility for the designs, testing, and published documentation.
 
 ## Get involved with OpenApparatus
 

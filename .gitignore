@@ -12,6 +12,4 @@ backup
 
 # Keep the maintainer release checklist local
 /RELEASING.md
-
-# Keep another unreleased design local
-/designs/another-design/
+/paper/
