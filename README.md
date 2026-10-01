@@ -2,7 +2,8 @@
 
 **An open-source hardware initiative by [OpenApparatus](https://openapparatus.org/)**
 
-This repository began with the dual-tube Lenz’s Law visualizer and now includes multiple design variations for demonstrating eddy currents and magnetic braking in physics classrooms. Each design has its own version history, printable parts, images, materials list, and assembly instructions.
+Three classroom designs demonstrate eddy currents and magnetic braking. Each
+includes printable parts, a materials list, photographs, and assembly instructions.
 
 ## Choose a design
 
@@ -16,19 +17,29 @@ This repository began with the dual-tube Lenz’s Law visualizer and now include
 
 [![Dual-tube prototype](designs/dual-tube-design/images/hero-image.jpeg)](designs/dual-tube-design/README.md)
 
-The dual-tube design’s [build guide](designs/dual-tube-design/README.md) includes materials, printing settings, assembly instructions, safety notes, deployment evidence, and stress-test information. Download the [end-cap STL](designs/dual-tube-design/parts/cap_lenz_visualizer_v2.stl) and the [optional control-weight STL](designs/dual-tube-design/parts/control_weight_cylinder_3D_print_v1.stl) directly.
+[Build guide](designs/dual-tube-design/README.md) ·
+[End-cap STL](designs/dual-tube-design/parts/cap_lenz_visualizer_v2.stl) ·
+[Optional control-weight STL](designs/dual-tube-design/parts/control_weight_cylinder_3D_print_v1.stl)
+
+[Watch the animation (MP4 · 22.5 seconds)](designs/dual-tube-design/animation/assets/OpenApparatus-dual-tube-digital-twin.mp4):
+a real-time fall followed by a quarter-speed slow-motion replay. To save it from GitHub,
+click **Download raw file** (↓) on its file page.
+See the [animation notes](designs/dual-tube-design/animation/README.md)
+for its parameters, assumptions, and credits.
 
 ### Triple-tube visualizer
 
 [![Triple-tube prototype](designs/triple-tube-design/images/triple-tube-design-hero.jpg)](designs/triple-tube-design/README.md)
 
-The [triple-tube v1 build guide](designs/triple-tube-design/README.md) includes materials, printing settings, assembly instructions, safety notes, a prototype photograph, and printable parts. This variation adds an aluminum tube alongside the copper and clear tubes, allowing a qualitative comparison of magnetic braking in the two conductive-tube assemblies. It reuses components from the dual-tube design wherever practical.
+[Build guide and print files](designs/triple-tube-design/README.md).
+Adds an aluminum tube for comparison with the copper and clear tubes.
 
 ### See-through visualizer
 
 [![See-through prototype](designs/see-through-design/images/see-through-design-hero.jpg)](designs/see-through-design/README.md)
 
-The [see-through v1 build guide](designs/see-through-design/README.md) includes materials, printing settings, assembly instructions, safety notes, a prototype photograph, and printable parts. This design places a ring magnet and a printed control ring around matching copper tubes, with clear outer tubes keeping both descents visible.
+[Build guide and print files](designs/see-through-design/README.md).
+Clear outer tubes keep the ring magnet and control ring enclosed and visible throughout their falls.
 
 ## Repository layout
 
@@ -53,7 +64,8 @@ designs/
 
 ## Citation
 
-Use GitHub’s **Cite this repository** menu to copy an APA or BibTeX citation generated from [CITATION.cff](CITATION.cff). When citing a particular build, also name the design and version used, such as **Dual-Tube Design, v1**, **Triple-Tube Design, v1**, or **See-Through Design, v1**.
+Use GitHub’s **Cite this repository** menu or [CITATION.cff](CITATION.cff).
+Include the design and version when citing a particular build, such as **Dual-Tube Design, v1**.
 
 Suggested general citation:
 
@@ -61,13 +73,23 @@ Suggested general citation:
 
 ## License and attribution
 
-Licensed under the [CERN Open Hardware Licence Version 2 – Weakly Reciprocal (CERN-OHL-W-2.0)](LICENSE).
+- Hardware designs and build documentation: [CERN-OHL-W-2.0](LICENSE).
+- Animation text, video, poster, and synthesized sound: [CC BY 4.0](designs/dual-tube-design/animation/LICENSE-media).
+- Animation viewer and publication workflow: [MIT](designs/dual-tube-design/animation/LICENSE-viewer).
+
+See the [animation credits](designs/dual-tube-design/animation/credits.md) for sources and attribution.
 
 Created by Jonathan Liu. If you build from or adapt this project, please preserve attribution and clearly indicate your modifications.
 
-## AI assistance and acknowledgements
+## Community acknowledgements
 
-AI tools assisted with drafting, editing, and organizing this repository’s documentation, including Markdown formatting and educational explanations. Hardware design and build decisions remain under the direction of Jonathan Liu at OpenApparatus, who retains responsibility for the designs, testing, and published documentation.
+Thank you to educators who tested beta builds, built their own versions, and
+shared feedback, and to participants at Maker Faires, FAB26 in Boston, and
+classroom and university mini-workshops. Their experiences help improve these designs.
+
+## AI assistance
+
+AI tools assisted with drafting documentation, refactoring code, and creating visuals. Jonathan Liu at OpenApparatus directs the project and retains responsibility for design decisions, physical testing, and published content.
 
 ## Get involved with OpenApparatus
 

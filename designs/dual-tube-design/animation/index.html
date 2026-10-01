@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A fixed configuration physics-based animation of the OpenApparatus dual-tube Lenz's law visualizer, with a real-time fall and quarter-speed replay.">
+  <title>Dual-tube animation · OpenApparatus</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #202624; background: #f8f8f5; }
+    body { margin: 0; }
+    main { max-width: 72rem; margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.15; margin: .5rem 0 1rem; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; }
+    p, li { line-height: 1.6; max-width: 75ch; }
+    .byline { font-size: .85rem; letter-spacing: .07em; color: #54605b; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; background: #111a21; margin-top: 1.5rem; }
+    a { color: #145b73; text-underline-offset: .18em; }
+    a:focus-visible, video:focus-visible { outline: 3px solid #bf761f; outline-offset: 4px; }
+    .links { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; margin: 1rem 0 1.5rem; }
+    .note { color: #47534e; font-size: .95rem; }
+    footer { border-top: 1px solid #d8dcd5; margin-top: 2rem; padding-top: 1rem; font-size: .85rem; }
+    @media (max-width: 480px) { main { padding: 1.5rem 1rem 2rem; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="byline">OpenApparatus · Jonathan Liu</p>
+      <h1>One release. Two different falls.</h1>
+      <p>A physics-based comparison: a magnet falls through copper tube beside a nonmagnetic
+        control weight in a clear tube.</p>
+    </header>
+
+    <video controls playsinline preload="metadata" width="1440" height="900"
+      poster="assets/dual-tube-poster.jpg" aria-label="Dual-tube fall animation"
+      aria-describedby="video-description">
+      <source src="assets/OpenApparatus-dual-tube-digital-twin.mp4" type="video/mp4">
+      Your browser cannot play this video. <a href="assets/OpenApparatus-dual-tube-digital-twin.mp4?download=1" download="OpenApparatus-dual-tube-digital-twin.mp4">Download the MP4</a>.
+    </video>
+    <nav class="links" aria-label="Animation resources">
+      <a href="assets/OpenApparatus-dual-tube-digital-twin.mp4?download=1" download="OpenApparatus-dual-tube-digital-twin.mp4">Download video (MP4)</a>
+      <a href="scenario.md">Simulation parameters and assumptions</a>
+      <a href="credits.md">Credits and licenses</a>
+    </nav>
+    <p class="note">Physics calculations use the open-source
+      <a href="https://github.com/jsxliu/derby-olbert-2010">Derby–Olbert reproduction on GitHub</a>.</p>
+    <p id="video-description" class="note">A simultaneous release, shown at real time and replayed at quarter speed.
+      Sounds and visible labels mark each landing. Predicted arrivals:
+      magnet <strong>2.738 s</strong>; control <strong>0.249 s</strong>.</p>
+
+    <section aria-labelledby="description-heading">
+      <h2 id="description-heading">About the simulation</h2>
+      <p>Eddy currents in the copper tube slow the magnet. The cutaway reveals its motion;
+        the modeled copper tube wall remains electrically intact.</p>
+      <p>This is a fixed configuration simulation with basic experimental calibration.</p>
+    </section>
+
+    <footer>
+      <p>© 2026 Jonathan Liu / OpenApparatus.</p>
+      <p><a href="https://github.com/jsxliu/lenz-law-visualizer/tree/main/designs/dual-tube-design">Hardware design and build guide</a>
+        · <a href="LICENSE-media">Media license</a>
+        · <a href="LICENSE-viewer">Viewer license</a></p>
+    </footer>
+  </main>
+</body>
+</html>

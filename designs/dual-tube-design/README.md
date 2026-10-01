@@ -1,11 +1,15 @@
 # Dual-Tube Lenz's Law Visualizer
+
 **An open-source hardware initiative by [OpenApparatus](https://openapparatus.org/)**
 
 [← All designs](../../README.md)
 
-**Status:** Existing public prototype · **Documented design version:** v1
+**Status:** Public prototype · **Design version:** v1
 
-> As of September 2026, nineteen beta units of this apparatus have been successfully deployed to universities, museums, and high schools across twelve states and three countries. To ensure long-term reliability in educational environments, the hardware undergoes rigorous evaluation, including a [4,000-cycle automated stress test](https://www.youtube.com/watch?v=3sY6RCX2NQ0) using a motorized, Arduino-controlled rig.
+As of September 2026, 20 beta units have been deployed to universities,
+museums, and high schools across 13 states and 3 countries. Testing
+includes a [4,000-cycle automated stress test](https://www.youtube.com/watch?v=3sY6RCX2NQ0)
+using a motorized, Arduino-controlled rig.
 
 A ruggedized, student-built, and user-friendly physics apparatus designed to safely visualize eddy currents and magnetic braking in a classroom setting.
 
@@ -19,30 +23,42 @@ I built this project as a high school junior to deepen my understanding of physi
 
 ![Prototype image](images/hero-image.jpeg)
 
-## 📁 Overview
+## Physics-based animation
 
-This design folder contains the print-ready STL files and documentation for **v1**. *If editable CAD/source files are released in future versions, they will be added here.*
+[![Preview of the dual-tube physics-based animation](animation/assets/dual-tube-poster.jpg)](animation/assets/OpenApparatus-dual-tube-digital-twin.mp4)
 
-**Included files:**
+**[Open animation (MP4 · 22.5 seconds)](animation/assets/OpenApparatus-dual-tube-digital-twin.mp4)**
+
+To save the MP4 from GitHub, click **Download raw file** (↓) on its file page.
+
+This fixed simulation serves as a first-order digital twin, showing a real-time
+fall and quarter-speed replay. Calculations use the
+[Derby–Olbert reproduction](https://github.com/jsxliu/derby-olbert-2010).
+Predicted arrivals are **2.738 s** for the magnet and **0.249 s** for the control.
+The copper cutaway is visual only; the modeled wall remains electrically intact.
+
+The film represents one configuration; hardware dimensions and results can vary.
+See its [parameters and assumptions](animation/scenario.md) and
+[credits and licenses](animation/credits.md).
+
+## Print files
+
 * [cap_lenz_visualizer_v2.stl](parts/cap_lenz_visualizer_v2.stl) — 3D-printable end cap; print two
 * [control_weight_cylinder_3D_print_v1.stl](parts/control_weight_cylinder_3D_print_v1.stl) — Optional 3D-printable control weight; print one
-* `README.md` — Project overview, safety notes, and build guidance
-* [hero-image.jpeg](images/hero-image.jpeg) — Prototype image
 
-## 💡 Motivation
+## Safety
 
-I enjoy building physical models that make abstract science ideas easier to see and explain. This project combines physics, mechanical design, 3D printing, and technical communication. It is part of my broader interest in using hardware to turn mathematical and physical concepts into tangible learning experiences.
-
-## ⚠️ Safety & Liability
 * **Captive System:** The end caps and fasteners keep the magnet and control weight enclosed, reducing shatter, impact, and pinch hazards. Inspect the caps, tubes, inserts, and fasteners before every demonstration, and do not use the apparatus if any part is cracked, loose, or damaged.
 * **Strong Magnets:** Keep the apparatus away from implanted medical devices, magnetic storage, electronics, and ferromagnetic objects. Follow the magnet manufacturer’s handling and separation guidance.
 * **Pinch, Impact, and Shatter Hazards:** Keep fingers and loose metal objects away from the magnet. Do not use a cracked or chipped magnet.
 * **Hot Surfaces & Sharp Edges:** Assembly requires a soldering iron and mechanical cutting tools. Wear appropriate protection and handle hot tools and metal edges carefully.
 * **Supervision:** Assemble and operate the apparatus under qualified adult supervision.
 
-## 🛠️ Bill of Materials (Per Kit)
+## Bill of materials (per kit)
+
 **Hardware:**
-* 1x Copper Tube: Nominal 1/2" (usually oversized) Type L or Type M (Actual OD ~5/8"), cut to 12 inches.
+
+* 1x Copper Tube: Nominal 1/2-inch Type L or Type M, with a 5/8-inch outside diameter, cut to 12 inches. See the [Copper Tube Handbook](https://www.copper.org/publications/pub_list/pdf/copper_tube_handbook.pdf) for standard dimensions.
 * 1x Clear Tube: Polycarbonate, 5/8" OD x 1/2" ID x 1/16" Wall, cut to 12 inches.
 * 1x Magnet: Neodymium Cylinder, 1/2" Nominal Diameter x 1.00" Height.
 * 1x Control Weight — choose one option:
@@ -50,18 +66,20 @@ I enjoy building physical models that make abstract science ideas easier to see 
   * **3D-printed:** Print [control_weight_cylinder_3D_print_v1.stl](parts/control_weight_cylinder_3D_print_v1.stl).
 
 **Fasteners (For 2 End Caps):**
+
 * 6x Ruthex M3 Threaded Inserts (RX-M3x5x4 Brass Heat-Set).
 * 6x M3-0.5 x 5mm Hex Socket Set Screws (Cup Point).
 
 **3D-Printed Parts:**
+
 * 2x End Caps: Print [cap_lenz_visualizer_v2.stl](parts/cap_lenz_visualizer_v2.stl).
 * 1x Control Weight (optional): Print [control_weight_cylinder_3D_print_v1.stl](parts/control_weight_cylinder_3D_print_v1.stl) instead of using the stainless steel dowel pin.
 
-## 🖨️ 3D-Printer Settings (PETG Filament Recommended)
+## Print settings (PETG recommended)
 
 **End Caps:**
 
-* **Strength - Wall Loops:** 6 (Forces solid plastic walls around fastener holes to prevent blowout).
+* **Wall loops:** 6.
 * **Strength - Sparse Infill:** 18% density, gyroid pattern.
 
 **3D-Printed Control Weight:**
@@ -69,19 +87,19 @@ I enjoy building physical models that make abstract science ideas easier to see 
 * **Strength - Sparse Infill Density:** 100%.
 * **Strength - Sparse Infill Pattern:** Rectilinear.
 
-The control weight has a small print volume, so 100% rectilinear infill is recommended.
-
-## ⚙️ Assembly Procedures
+## Assembly
 
 **Required Tools & Accessories:**
+
 * Tubing Cutter (Suitable for copper and plastic)
 * Reaming Pen / Deburring Tool
-* Smart Mini Portable Soldering Iron
+* Soldering Iron for Heat-Set Inserts
 * Loctite 242 (Blue Removable Threadlocker)
 * Metric Hex Key (For M3 set screws)
 * Caliper and Tape Measure
 
 **Assembly Steps:**
+
 1. **Prepare the Tubes:** Cut both the copper and polycarbonate tubes to exactly 12 inches in length. Use the reaming pen to thoroughly deburr the inside and outside edges of all cut ends.
 2. **Check Free Travel:** Over a padded surface, pass the magnet through the copper tube and the selected control weight through the clear tube. Confirm that both objects travel from end to end without binding.
 3. **Install the Inserts:** Temporarily seat the copper tube in its socket so it acts as a depth stop for the adjacent inserts. Using the soldering iron, gently heat-set three brass inserts into each end cap until they are flush with the plastic. Keep the inserts perpendicular to the cap surface, use the correct tool temperature for the selected filament, and remove the temporary tube after the inserts and surrounding plastic have cooled completely.
@@ -93,21 +111,23 @@ The control weight has a small print volume, so 100% rectilinear infill is recom
 9. **Inspect the Captive System:** Confirm that all six set screws are secure, both caps are fully seated, and neither falling object can leave the apparatus.
 10. **Perform the Function Check:** Over a padded surface, flip the secured apparatus several times. Confirm that the magnet and control weight travel from end to end without binding.
 
-The assembly is ready for classroom deployment after the retention and function checks pass.
+## Version
 
----
-
-## 📌 Versioning
 * **v1** — Initial public prototype release, as documented in the original README.
 
 The existing end-cap STL filename includes `v2` and has been preserved for traceability. The printable control-weight STL was added as an alternative to the original off-the-shelf stainless steel dowel pin. These file changes do not establish a new hardware revision.
 
-*Future releases may include revised geometry, improved fit/tolerances, editable CAD/source files, and clearer classroom documentation.*
+## License and attribution
 
-## 📄 License
-This project is licensed under the **CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)**. Please see the [repository LICENSE](../../LICENSE) file for the full license text.
+The hardware design and this build guide retain the **CERN Open Hardware
+Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)**. See the
+[repository LICENSE](../../LICENSE) for the full license text.
 
-## ✍️ Attribution
+The animation's original text, video, poster, and synthesized sound are licensed
+under [CC BY 4.0](animation/LICENSE-media); its HTML/CSS viewer and Pages
+publication workflow are [MIT licensed](animation/LICENSE-viewer).
+See the [component credits](animation/credits.md).
+
 Created by Jonathan Liu. If you build from or adapt this project, please preserve attribution and clearly indicate your modifications.
 
 ## 📝 Notes

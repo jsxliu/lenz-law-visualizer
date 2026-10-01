@@ -1,0 +1,47 @@
+Creative Commons Attribution 4.0 International (CC-BY-4.0)
+
+Copyright (c) 2026 Jonathan Liu
+
+This license applies to Jonathan Liu's original prose and rendered media in
+this animation folder: README.md, scenario.md, credits.md, the prose in
+index.html, assets/OpenApparatus-dual-tube-digital-twin.mp4, and assets/dual-tube-poster.jpg. It also
+applies to original captions accompanying the animation, if present.
+The original synthesized landing sounds embedded in the MP4 are included.
+
+The HTML/CSS implementation of index.html and the repository's
+.github/workflows/animation-pages.yml use the MIT License in LICENSE-viewer.
+Private simulation and authoring tools are not distributed with this folder.
+
+You are free to:
+
+  - Share — copy and redistribute the material in any medium or format.
+  - Adapt — remix, transform, and build upon the material for any purpose,
+             even commercially.
+
+Under the following terms:
+
+  - Attribution — Give appropriate credit, provide a link to this license,
+    and indicate if changes were made. You may do so in any reasonable manner,
+    but not in a way that suggests endorsement by the licensor.
+  - No additional restrictions — Do not apply legal terms or technological
+    measures that legally restrict others from doing anything this license
+    permits.
+
+Notices:
+
+  - This license does not cover the third-party publications cited in the
+    documentation. Their methods are credited and any brief quotations retain
+    their source attribution.
+  - The depicted OpenApparatus hardware design retains its CERN-OHL-W-2.0
+    license. This license covers the original rendered presentation and does
+    not relicense the hardware design. See credits.md for source locations.
+
+The full legal text of the CC-BY-4.0 license is available at:
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+A human-readable summary is available at:
+
+  https://creativecommons.org/licenses/by/4.0/
+
+SPDX-License-Identifier: CC-BY-4.0
