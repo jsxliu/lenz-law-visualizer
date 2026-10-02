@@ -25,11 +25,11 @@ I built this project as a high school junior to deepen my understanding of physi
 
 ## Physics-based animation
 
-[![Preview of the dual-tube physics-based animation](animation/assets/dual-tube-poster.jpg)](animation/assets/OpenApparatus-dual-tube-digital-twin.mp4)
+[![Preview of the dual-tube physics-based animation](animation/assets/dual-tube-poster.jpg)](https://jsxliu.github.io/lenz-law-visualizer/designs/dual-tube-design/animation/)
 
-**[Open animation (MP4 · 22.5 seconds)](animation/assets/OpenApparatus-dual-tube-digital-twin.mp4)**
+**[Watch the animation (22.5 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/dual-tube-design/animation/)**
 
-To save the MP4 from GitHub, click **Download raw file** (↓) on its file page.
+The player includes a **Download video (MP4)** link.
 
 This fixed simulation serves as a first-order digital twin, showing a real-time
 fall and quarter-speed replay. Calculations use the

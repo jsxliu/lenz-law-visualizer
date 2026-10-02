@@ -2,9 +2,9 @@
 
 [← Dual-tube design and build guide](https://github.com/jsxliu/lenz-law-visualizer/tree/main/designs/dual-tube-design)
 
-**[Open animation (MP4 · 22.5 seconds)](assets/OpenApparatus-dual-tube-digital-twin.mp4)**
+**[Watch the animation (22.5 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/dual-tube-design/animation/)**
 
-To save the MP4 from GitHub, click **Download raw file** (↓) on its file page.
+The player includes a **Download video (MP4)** link.
 
 The magnet and control are released together, shown at real time and replayed at
 quarter speed. Predicted arrivals are **2.738 s** for the magnet and **0.249 s**
@@ -15,8 +15,3 @@ This fixed simulation uses the
 
 - [Simulation parameters and assumptions](scenario.md)
 - [Credits and licenses](credits.md)
-
-## Publishing the web player
-
-Set GitHub Pages to **GitHub Actions**, then run **Publish fixed animation**
-on `main`. The workflow publishes only this folder.

@@ -21,9 +21,9 @@ includes printable parts, a materials list, photographs, and assembly instructio
 [End-cap STL](designs/dual-tube-design/parts/cap_lenz_visualizer_v2.stl) ·
 [Optional control-weight STL](designs/dual-tube-design/parts/control_weight_cylinder_3D_print_v1.stl)
 
-[Watch the animation (MP4 · 22.5 seconds)](designs/dual-tube-design/animation/assets/OpenApparatus-dual-tube-digital-twin.mp4):
-a real-time fall followed by a quarter-speed slow-motion replay. To save it from GitHub,
-click **Download raw file** (↓) on its file page.
+[Watch the animation (22.5 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/dual-tube-design/animation/):
+a real-time fall followed by a quarter-speed slow-motion replay.
+The player includes a **Download video (MP4)** link.
 See the [animation notes](designs/dual-tube-design/animation/README.md)
 for its parameters, assumptions, and credits.
 
