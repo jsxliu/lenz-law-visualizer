@@ -4,27 +4,18 @@
 
 | Parameter | Value |
 |---|---|
-| Travel of each object's center | 303.4 mm (11.945″) |
-| Both modeled tube lengths | 304.78 mm (11.999″; nominal 12″) |
-| Copper and clear tube outside diameter | 15.9 mm (0.626″) |
-| Copper and clear tube inside diameter | 13.82 mm (0.544″) |
-| Copper wall thickness | 1.04 mm (0.041″) |
+| Travel of each object's center | 303.4 mm |
+| Both modeled tube lengths | 304.78 mm |
+| Copper tube outside diameter | 15.9 mm |
+| Copper tube inside diameter | 13.82 mm |
+| Copper wall thickness | 1.04 mm |
 | Copper conductivity | 49.3 MS/m |
-| Magnet and control diameter × height | 12.64 × 25.38 mm (0.498″ × 0.999″) |
+| Magnet diameter × height | 12.64 × 25.38 mm |
 | Magnet mass | 25 g |
 | Magnet nominal remanence | 1.18 T |
-| Stop extension beyond each tube end | 12 mm (0.472″) |
+| Stop extension beyond each tube end | 12 mm |
 | Gravity | 9.80665 m/s² |
 | Initial velocity | 0 m/s |
-
-The metric dimensions are the simulation inputs; inch equivalents are rounded.
-The nominal 12-inch tube description retains the modeled 304.78 mm length.
-Predicted arrivals are **2.737922 s** for the magnet and **0.248750 s** for the
-control, using the specified geometry and nominal material properties.
-
-The visual refresh preserves the original trajectories and timing. The video
-contains 1,348 frames at 60 fps and 1440 × 900 pixels: **22.467 seconds**, with
-real-time motion, a quarter-speed replay, and a three-second closing hold.
 
 ## Basic assumptions
 
