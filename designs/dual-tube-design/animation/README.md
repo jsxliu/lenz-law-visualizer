@@ -10,7 +10,9 @@ The magnet and control are released together, shown at real time and replayed at
 quarter speed. Predicted arrivals are **2.738 s** for the magnet and **0.249 s**
 for the control. Landing sounds mark each arrival; the control weight landing is louder.
 
-This fixed simulation uses the
+The apparatus view shows blue upper and off-white lower caps, and dimensions in inches and millimeters.
+
+This fixed simulation predicts the falls from nominal material properties using the
 [Derby–Olbert reproduction](https://github.com/jsxliu/derby-olbert-2010).
 
 - [Simulation parameters and assumptions](scenario.md)
