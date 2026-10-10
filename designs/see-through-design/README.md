@@ -14,11 +14,31 @@ Two 3D-printed end caps hold the tubes. Epoxy bonds the polycarbonate tubes to t
 
 ![See-through prototype](images/see-through-design-hero.jpg)
 
+## Physics-based animation
+
+[![Preview of the see-through physics-based animation](animation/assets/see-through-poster.jpg)](https://jsxliu.github.io/lenz-law-visualizer/designs/see-through-design/animation/)
+
+**[Watch the animation (12.05 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/see-through-design/animation/)**
+
+The player includes a **Download video (MP4)** link.
+
+The existing-size ring magnet and matching nonmagnetic control are released
+simultaneously, shown at real time and replayed at quarter speed. Predicted
+arrivals are **1.004 s** for the magnet and **0.237 s** for the control. The simulation adapts
+the cylindrical-magnet field from the
+[Derby–Olbert reproduction](https://github.com/jsxliu/derby-olbert-2010)
+to the ring geometry; the control follows analytic free fall.
+
+See the [parameters and assumptions](animation/scenario.md) and
+[credits and licenses](animation/credits.md).
+
 ## 📁 Overview
 
-This folder contains the prototype photograph, two printable STL files, and build guidance for the see-through design.
+This folder contains the prototype photograph, two printable STL files, a physics-based animation, and build guidance for the see-through design.
 
 **Included files:**
+
+* [animation/](animation/README.md) — Video player, MP4, scenario, and credits
 
 * [see-through-design-hero.jpg](images/see-through-design-hero.jpg) — Prototype photograph
 * [see_through_design_end_cap_v1.stl](parts/see_through_design_end_cap_v1.stl) — See-through end cap; print two
@@ -118,6 +138,10 @@ Both rings remain visible throughout their descent. Mechanical friction effects 
 ## 📄 License
 
 This project is licensed under the **CERN Open Hardware Licence Version 2 – Weakly Reciprocal (CERN-OHL-W-2.0)**. Please see the [repository LICENSE](../../LICENSE) file for the full license text.
+
+The animation text, video, poster, and synthesized landing sounds use
+[CC BY 4.0](animation/LICENSE-media); the viewer uses
+[MIT](animation/LICENSE-viewer). See [component credits](animation/credits.md).
 
 ## ✍️ Attribution
 

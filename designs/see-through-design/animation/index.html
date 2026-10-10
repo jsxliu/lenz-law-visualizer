@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A physics-based animation of the OpenApparatus see-through Lenz's law visualizer: a ring magnet falls around copper beside a matching free-fall control.">
+  <title>See-through animation · OpenApparatus</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #202624; background: #f8f8f5; }
+    body { margin: 0; }
+    main { max-width: 72rem; margin: 0 auto; padding: 2.5rem 1.25rem 3rem; }
+    h1 { font-size: clamp(1.8rem, 4vw, 2.8rem); line-height: 1.15; margin: .5rem 0 1rem; }
+    h2 { font-size: 1.2rem; margin-top: 2rem; }
+    p, li { line-height: 1.6; max-width: 75ch; }
+    .byline { font-size: .85rem; letter-spacing: .07em; color: #54605b; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; background: #111a21; margin-top: 1.5rem; }
+    a { color: #145b73; text-underline-offset: .18em; }
+    a:focus-visible, video:focus-visible { outline: 3px solid #bf761f; outline-offset: 4px; }
+    .links { display: flex; flex-wrap: wrap; gap: .65rem 1.5rem; margin: 1rem 0 1.5rem; }
+    .note { color: #47534e; font-size: .95rem; }
+    footer { border-top: 1px solid #d8dcd5; margin-top: 2rem; padding-top: 1rem; font-size: .85rem; }
+    @media (max-width: 480px) { main { padding: 1.5rem 1rem 2rem; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="byline">OpenApparatus · Jonathan Liu</p>
+      <h1>Watch magnetic braking happen.</h1>
+      <p>A ring magnet falls around a copper tube beside a matching nonmagnetic
+        control ring. Clear outer tubes keep both descents visible.</p>
+    </header>
+
+    <video controls playsinline preload="metadata" width="1440" height="900"
+      poster="assets/see-through-poster.jpg" aria-label="See-through ring-magnet fall animation"
+      aria-describedby="video-description">
+      <source src="assets/OpenApparatus-see-through-digital-twin.mp4" type="video/mp4">
+      Your browser cannot play this video. <a href="assets/OpenApparatus-see-through-digital-twin.mp4?download=1" download="OpenApparatus-see-through-digital-twin.mp4">Download the MP4</a>.
+    </video>
+    <nav class="links" aria-label="Animation resources">
+      <a href="assets/OpenApparatus-see-through-digital-twin.mp4?download=1" download="OpenApparatus-see-through-digital-twin.mp4">Download video (MP4)</a>
+      <a href="scenario.md">Simulation parameters and assumptions</a>
+      <a href="credits.md">Credits and licenses</a>
+    </nav>
+    <p class="note">The simulation adapts the cylindrical-magnet field from the
+      <a href="https://github.com/jsxliu/derby-olbert-2010">Derby–Olbert reproduction on GitHub</a>
+      to the ring geometry.</p>
+    <p id="video-description" class="note">A simultaneous release, shown at real time and replayed at quarter speed.
+      Sounds and visible labels mark each landing. Predicted arrivals:
+      magnet <strong>1.004 s</strong>; control <strong>0.237 s</strong>.</p>
+
+    <section aria-labelledby="description-heading">
+      <h2 id="description-heading">About the simulation</h2>
+      <p>Both paths contain a copper tube inside a clear sleeve. Eddy currents in
+        the copper slow the magnetic ring; the nonmagnetic control follows free fall.</p>
+      <p>The prototype uses a ¾″ OD × ½″ ID × ⅜″ high ring around 12 mm OD × 1 mm wall
+        copper, with 12″ tubes. The model includes finite tube ends and integrates
+        braking throughout the copper wall.</p>
+      <p class="note">These are predictions for centered motion with nominal material
+        properties and no rubbing. The timing uses stop planes inferred from the end-cap mesh;
+        actual cap clearances and measured magnet strength can change the result.</p>
+    </section>
+
+    <footer>
+      <p>© 2026 Jonathan Liu / OpenApparatus.</p>
+      <p><a href="https://github.com/jsxliu/lenz-law-visualizer/tree/main/designs/see-through-design">Hardware design and build guide</a>
+        · <a href="LICENSE-media">Media license</a>
+        · <a href="LICENSE-viewer">Viewer license</a></p>
+    </footer>
+  </main>
+</body>
+</html>

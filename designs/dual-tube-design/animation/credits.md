@@ -7,7 +7,7 @@ See the project-wide [AI assistance](../../../README.md#ai-assistance).
 ## Presentation
 
 Original text, video, poster, and synthesized landing sounds:
-[CC BY 4.0](LICENSE-media). Viewer HTML/CSS and publication workflow:
+[CC BY 4.0](LICENSE-media). Viewer HTML/CSS:
 [MIT](LICENSE-viewer). The sounds are illustrative contact cues, not measured acoustics.
 
 Suggested attribution:

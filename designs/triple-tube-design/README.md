@@ -16,15 +16,39 @@ The triple-tube and dual-tube designs share component specifications wherever pr
 
 ![Triple-tube prototype](images/triple-tube-design-hero.jpg)
 
+## Physics-based animation
+
+[![Preview of the triple-tube physics-based animation](animation/assets/triple-tube-poster.jpg)](https://jsxliu.github.io/lenz-law-visualizer/designs/triple-tube-design/animation/)
+
+**[Watch the animation (20.72 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/triple-tube-design/animation/)**
+
+The player includes a **Download video (MP4)** link.
+
+The three weights release together; a real-time fall is followed by a
+quarter-speed replay. Copper and aluminum trajectories use the same
+[Derby–Olbert reproduction](https://github.com/jsxliu/derby-olbert-2010)
+as the dual-tube animation, while the control follows ideal free fall.
+Predicted arrivals are **0.249 s** for the control, **1.673 s** for the
+aluminum magnet, and **2.738 s** for the copper magnet. The metal cutaways
+are visual only; the modeled tube walls remain electrically intact.
+
+The movie uses the physics report’s aluminum geometry at a 12-inch length:
+**16.00 mm OD × 13.56 mm ID × 1.22 mm wall**
+(approximately **0.630″ OD × 0.534″ ID × 0.048″ wall**).
+
+See the [parameters and assumptions](animation/scenario.md) and
+[credits and licenses](animation/credits.md).
+
 ## 📁 Overview
 
-This folder contains the prototype photograph, printable parts, and build documentation for the triple-tube design.
+This folder contains the prototype photograph, printable parts, a physics-based animation, and build documentation for the triple-tube design.
 
 **Included files:**
 
 * [cap_triple_tube_design_v1.stl](parts/cap_triple_tube_design_v1.stl) — Triple-tube end cap; print two
 * [control_weight_cylinder_3D_print_v1.stl](parts/control_weight_cylinder_3D_print_v1.stl) — Optional 3D-printable control weight; print one
 * [triple-tube-design-hero.jpg](images/triple-tube-design-hero.jpg) — Prototype photograph
+* [animation/](animation/README.md) — Physics-based video, player, scenario, and credits
 * `README.md` — Project overview, safety notes, and build guidance
 
 
@@ -128,6 +152,9 @@ This single action shows both the contrast between free fall and magnetic brakin
 ## 📄 License
 
 This project is licensed under the **CERN Open Hardware Licence Version 2 – Weakly Reciprocal (CERN-OHL-W-2.0)**. Please see the [repository LICENSE](../../LICENSE) file for the full license text.
+
+The animation has separate [media](animation/LICENSE-media) and
+[viewer](animation/LICENSE-viewer) licenses; see its [credits](animation/credits.md).
 
 ## ✍️ Attribution
 

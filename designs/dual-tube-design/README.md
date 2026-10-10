@@ -124,8 +124,8 @@ Licence Version 2 - Weakly Reciprocal (CERN-OHL-W-2.0)**. See the
 [repository LICENSE](../../LICENSE) for the full license text.
 
 The animation's original text, video, poster, and synthesized sound are licensed
-under [CC BY 4.0](animation/LICENSE-media); its HTML/CSS viewer and Pages
-publication workflow are [MIT licensed](animation/LICENSE-viewer).
+under [CC BY 4.0](animation/LICENSE-media); its HTML/CSS viewer is
+[MIT licensed](animation/LICENSE-viewer).
 See the [component credits](animation/credits.md).
 
 Created by Jonathan Liu. If you build from or adapt this project, please preserve attribution and clearly indicate your modifications.

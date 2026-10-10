@@ -3,7 +3,7 @@
 **An open-source hardware initiative by [OpenApparatus](https://openapparatus.org/)**
 
 Three classroom designs demonstrate eddy currents and magnetic braking. Each
-includes printable parts, a materials list, photographs, and assembly instructions.
+includes printable parts, a materials list, photographs, physics-based animation, and assembly instructions.
 
 ## Choose a design
 
@@ -17,9 +17,8 @@ includes printable parts, a materials list, photographs, and assembly instructio
 
 [![Dual-tube prototype](designs/dual-tube-design/images/hero-image.jpeg)](designs/dual-tube-design/README.md)
 
-[Build guide](designs/dual-tube-design/README.md) ·
-[End-cap STL](designs/dual-tube-design/parts/cap_lenz_visualizer_v2.stl) ·
-[Optional control-weight STL](designs/dual-tube-design/parts/control_weight_cylinder_3D_print_v1.stl)
+[Build guide and print files](designs/dual-tube-design/README.md).
+Compares a magnet falling through a copper tube with a nonmagnetic control weight falling through a clear tube.
 
 [Watch the animation (22.5 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/dual-tube-design/animation/):
 a real-time fall followed by a quarter-speed slow-motion replay.
@@ -34,12 +33,24 @@ for its parameters, assumptions, and credits.
 [Build guide and print files](designs/triple-tube-design/README.md).
 Adds an aluminum tube for comparison with the copper and clear tubes.
 
+[Watch the animation (20.72 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/triple-tube-design/animation/):
+a simultaneous release in copper, clear, and aluminum tubes, followed by a
+quarter-speed replay. The player includes a **Download video (MP4)** link.
+See the [animation notes](designs/triple-tube-design/animation/README.md)
+for its parameters, assumptions, and credits.
+
 ### See-through visualizer
 
 [![See-through prototype](designs/see-through-design/images/see-through-design-hero.jpg)](designs/see-through-design/README.md)
 
 [Build guide and print files](designs/see-through-design/README.md).
 Clear outer tubes keep the ring magnet and control ring enclosed and visible throughout their falls.
+
+[Watch the animation (12.05 seconds)](https://jsxliu.github.io/lenz-law-visualizer/designs/see-through-design/animation/):
+a real-time fall followed by a quarter-speed slow-motion replay.
+The player includes a **Download video (MP4)** link.
+See the [animation notes](designs/see-through-design/animation/README.md)
+for its parameters, assumptions, and credits.
 
 ## Repository layout
 
@@ -50,14 +61,17 @@ LICENSE                         Shared hardware license
 designs/
    dual-tube-design/
      README.md                  Existing design’s build guide
+     animation/                 Video player, scenario, and credits
      parts/                     Printable STL files
      images/                    Prototype photograph
    triple-tube-design/
      README.md                  v1 build guide
+     animation/                 Video player, scenario, and credits
      parts/                     Printable STL files
      images/                    Prototype photograph
    see-through-design/
      README.md                  v1 build guide
+     animation/                 Video player, scenario, and credits
      parts/                     Printable STL files
      images/                    Prototype photograph
 ```
@@ -75,9 +89,11 @@ Suggested general citation:
 
 - Hardware designs and build documentation: [CERN-OHL-W-2.0](LICENSE).
 - Animation text, video, poster, and synthesized sound: [CC BY 4.0](designs/dual-tube-design/animation/LICENSE-media).
-- Animation viewer and publication workflow: [MIT](designs/dual-tube-design/animation/LICENSE-viewer).
+- Animation viewer: [MIT](designs/dual-tube-design/animation/LICENSE-viewer).
 
-See the [animation credits](designs/dual-tube-design/animation/credits.md) for sources and attribution.
+See the [dual-tube animation credits](designs/dual-tube-design/animation/credits.md),
+[triple-tube animation credits](designs/triple-tube-design/animation/credits.md),
+and [see-through animation credits](designs/see-through-design/animation/credits.md) for sources and attribution.
 
 Created by Jonathan Liu. If you build from or adapt this project, please preserve attribution and clearly indicate your modifications.
 
